@@ -10,13 +10,7 @@ import {AiFillGithub} from "react-icons/ai";
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({
-  title,
-  description,
-  tags,
-    ssrn,
-    github
-}: ProjectProps) {
+export default function Project(ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -36,12 +30,12 @@ export default function Project({
     >
       <section className="bg-gray-100 max-w-[36rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[100%] flex flex-col h-[100%]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
+          <h3 className="text-2xl font-semibold">{ProjectProps.title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
-            {description}
+            {ProjectProps.description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 mb-2">
-            {tags.map((tag, index) => (
+            {ProjectProps.tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
@@ -51,8 +45,8 @@ export default function Project({
             ))}
           </ul>
           <div className={"flex flex-row gap-2"}>
-          {ssrn && (<a
-              href={ssrn}
+          {ProjectProps.ssrn && (<a
+              href={ProjectProps.ssrn}
               target="_blank"
               rel="noreferrer noopener">
             <button
@@ -62,8 +56,8 @@ export default function Project({
             <IoDocumentTextSharp className={"sm text-white dark:text-white/70"}/> SSRN Link
           </button>
           </a>)}
-          {github && (<a
-              href={github}
+          {ProjectProps.github && (<a
+              href={ProjectProps.github}
               target="_blank"
               rel="noreferrer noopener">
             <button
