@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[75rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,30 +19,13 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        I'm a dedicated and enthusiastic computer science professional, currently honing my skills and knowledge at the <span className="font-bold">University of Illinois, Urbana Champaign</span>, where I am pursuing a Master of Computer Science.
+        My journey in this field has been nothing short of exciting, with a strong foundation laid during my undergraduate studies at VJTI in Mumbai, India, where I graduated as the top student with a CGPA of 9.74/10.
+        My technical toolkit is quite diverse, ranging from programming languages like <span className="font-bold">Python, Java, and JavaScript</span>, to frameworks and technologies such as <span className="font-bold">ReactJs, Springboot, and Docker</span>.
+        I've had the incredible opportunity to apply these skills in a real-world setting during my tenure as a <span className="font-bold">Software Development Engineer</span> at <span className="font-bold">Goldman Sachs</span> in Bengaluru, India, where I played a pivotal role in enhancing software workflows and user interfaces.
+        Beyond the technical realm, I am deeply passionate about contributing to <span className="font-bold">open-source projects</span> and have actively participated in initiatives that drive innovation and improvement in software solutions.
+        On a personal note, I find great fulfillment in volunteering, especially in initiatives that empower <span className="font-bold">women in technology</span>, as I believe in creating an inclusive and supportive environment for all.
+        I am eager to continue this journey, constantly learning, growing, and contributing to the field of computer science.
       </p>
     </motion.section>
   );

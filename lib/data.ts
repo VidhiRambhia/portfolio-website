@@ -4,7 +4,10 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
+import bitsImage from "@/public/BITS_Pilani-Logo.svg.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import {AiOutlineAmazon} from "react-icons/ai";
+import {BsBank} from "react-icons/bs";
 
 export const links = [
   {
@@ -16,16 +19,20 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -35,73 +42,54 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Analyst - Software Development Engineer",
+    location: "Bengaluru, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Engineered a Spring Boot-based microservices workflow, cutting deal turnaround times by 30%, and designed responsive dashboards with React, Redux, and ElasticSearch, boosting user satisfaction by 60%. Also established an efficient CI/CD pipeline with Cypress and Cucumber.js for E2E testing, ensuring software reliability, and contributed to enhanced banker productivity through a Kafka and WebSockets-based real-time notification system.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "June 2021 - May 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Analyst - Software Development Intern",
+    location: "Bengaluru, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "Facilitated faster roll-outs of forms capturing deal-data by building a complex form-engine with validation. Worked on improving response times by 50% in Banker’s WorkQ by indexing data in Elasticsearch",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2020 - June 2020",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Open Source Contributions",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+        "Contributed to AsyncAPI, Cypress-cucumber-preprocessor, and Taiga UI. Multiple pull requests have been merged into the main branch. Wrote code to perform GitHub Actions integrations, End to End Testing, and enhancing front-end components",
+    tags: ["Javascript",  "Cypress",  "Playwright",  "Cucumber",  "Github Actions",  "CI/CD"],
   },
   {
-    title: "rmtDev",
+    title: "RiskGPT",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+        "Developed a risk-related question-answering system using SQLDatabaseChain using few shot learning and finetuning. Secured the first position in Goldman Sach’s AI hackathon for presenting it",
+    tags: ["Langchain",  "OpenAI",  "Prompt Engineering",  "SQL",  "LLMOps"],
   },
   {
-    title: "Word Analytics",
+    title: "Agrichain",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+        "Created a decentralized supply chain management system using Ethereum and smart contracts to increase transparency in the Indian agricultural sector",
+    tags: ["Solidity", "Truffle", "Ganache", "Web3py", "Metamask", "HTML", "CSS", "Flask"],
+    github: "https://github.com/VidhiRambhia/FYP2021",
+  },
+  {
+    title: "CampusMaps",
+    description: "Developed an Alexa powered voice-assisted navigation system for college campuses, which allows students to request directions in an intuitive way",
+    tags: ["Python", "Graph Theory", "AWS Lambda", "Alexa Skills"],
+    github: "https://github.com/VidhiRambhia/VJTI-Navigation"
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Python", "Java", "JavaScript", "TypeScript", "C++", "C", "SQL", "HTML", "CSS", "Bash", "Rust", "Kotlin",
+  "React", "Next.js", "Kafka", "MongoDB", "DynamoDB", "ElasticSearch", "Postgres", "GraphQL", "Django", "Node.js",
+  "AWS", "Azure", "GCP", "Git", "Docker", "Jenkins", "Kubernetes (K8s)", "GitLab CI/CD", "Lambda", "Lex", "Linux"
+
 ] as const;
