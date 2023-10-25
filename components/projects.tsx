@@ -13,11 +13,11 @@ export default function Projects() {
       <>
           <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
               <SectionHeading>My projects</SectionHeading>
-              <div className="flex flex-row flex-wrap justify-center">
+              <div className="grid lg:grid-cols-2 gap-8 grid-cols-1">
                   {projectsData.map((project, index) => (
                       <>
                           <React.Fragment key={index}>
-                              <Project ProjectProps={project}/>
+                              <Project {...project}/>
                           </React.Fragment>
                       </>
                   ))}
