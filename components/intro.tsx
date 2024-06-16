@@ -48,10 +48,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I'm Vidhi. </span>As a {" "}
-        <span className="font-bold">full-stack developer</span>, I bring versatility and innovation to every project.
-        Proud to be a woman in tech, I contribute to a balanced and collaborative working environment.
-        My work not only solves complex problems but also pushes the boundaries of what's possible in digital solutions.
+        <span className="font-bold">Hi, I'm Vidhi Rambhia, </span>As a {" "}
+        a dedicated and driven Master's student in Computer Science at the University of Illinois Urbana-Champaign (UIUC). My academic journey began in Mumbai at Veermata Jijabai Technological Institute, where I graduated as the Gold Medalist. At UIUC, I work under the guidance of Prof. Vikram Adve, focusing on the cutting-edge Farm of the Future project, where we explore innovative approximate computing techniques for Edge ML applications.
+        My research passion sits at the vibrant intersection of technology and agriculture, where I am committed to developing scalable solutions that tackle some of the most pressing challenges in the agricultural sector. Alongside my studies, I have gained substantial professional experience at Goldman Sachs and currently at Amazon’s AWS on the Redshift team
       </motion.h2>
 
       <motion.div
