@@ -42,6 +42,16 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Development Intern",
+    location: "Palo Alto, CS",
+    description:
+        "Developing distributed load testing infrastructure for a critical proxy service routing connections to Redshift, AWS's fully managed, petabyte-scale data warehouse service. " +
+        "Conducting stress tests by establishing thousands of database connections in parallel to ensure optimal performance and reliability under high customer workload. " +
+        "Building automated approval workflows for releasing Redshift’s critical services to customers in all regions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 - Present",
+  },
+  {
     title: "Analyst - Software Development Engineer",
     location: "Bengaluru, India",
     description:
