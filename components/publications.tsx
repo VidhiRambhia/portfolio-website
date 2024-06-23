@@ -11,7 +11,7 @@ export default function Publications() {
 
     return (
         <>
-            <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+            <section ref={ref} id="publications" className="scroll-mt-28 mb-28">
                 <SectionHeading>Publications</SectionHeading>
                 <div className="px-12">
                     {publicationsData.map((publication, index) => (
