@@ -15,7 +15,7 @@ export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
-  return (
+    return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
@@ -48,8 +48,8 @@ export default function Experience() {
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 white-space-pre">
                   {item.description}
-              </p>
-            </VerticalTimelineElement>
+                </p>
+              </VerticalTimelineElement>
           </React.Fragment>
         ))}
       </VerticalTimeline>

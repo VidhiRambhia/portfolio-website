@@ -48,8 +48,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I'm Vidhi Rambhia, </span>As a {" "}
-        a dedicated and driven Master's student in Computer Science at the University of Illinois Urbana-Champaign (UIUC). My academic journey began at VJTI, Mumbai where I graduated as the Gold Medalist.
+        <span className="font-bold">Hi, I'm Vidhi Rambhia, </span>a {" "}
+        a dedicated and driven student pursuing a Masters in Computer Science at the University of Illinois Urbana-Champaign (UIUC). My academic journey began at VJTI, Mumbai where I graduated as the Gold Medalist.
         My research passion sits at the vibrant intersection of technology and agriculture, where I am committed to developing scalable solutions that tackle some of the most pressing challenges in the agricultural sector. 
       </motion.h2>
 
@@ -75,9 +75,9 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1wmB8zp6IAzf_CadJ9UfOV0zttZD-3BjT/view?usp=sharing"
+          href="https://drive.google.com/file/d/11ceh7ok0XfPnmH6RC_u-xXgeoy_i8Bxj/view?usp=sharing"
         >
-          View Resume{" "}
+          View CV{" "}
           <HiEye className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

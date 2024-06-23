@@ -87,6 +87,26 @@ export const projectsData = [
   },
 ] as const;
 
+export const publicationsData = [
+  {
+    title: "Agrichain: A Blockchain-Based Food Supply Chain Management System",
+    description:
+        "The food supply chain is complex due to multiple entities and perishable goods. In India, weak infrastructure hinders collaboration, leading to siloed operations. Effective supply chain management requires sophisticated data integration and tracking. Blockchain technology offers transparency, traceability, and security, showing promise for improving these processes. This paper proposes Agrichain, a low-cost Blockchain-based solution for the Indian food supply chain. Agrichain enables stakeholders to register and publish information on the blockchain, facilitating the tracking and tracing of perishable goods throughout the supply chain.",
+    doi: "https://link.springer.com/chapter/10.1007/978-3-030-96527-3_1",
+  },
+  {
+    title: "CampusMaps: Voice Assisted Navigation Using Alexa Skills",
+    description:
+        "Voice assistants have become a common occurrence that are present in our smart-phones, speakers or dedicated devices like the Google Home and Alexa Echo. Over the years, these voice assistants have become more intelligent and the number of tasks that can be performed by them has increased. Of the many voice assistants that exist, Amazon’s Alexa is one of the most compatible voice assistants, which can be programmed to suit specific use cases by the use of Amazon’s Alexa Skills Kit. Through this paper, we leverage the power of Alexa’s voice assistance by designing a navigation system for our college campus, which allows users to request directions in the most intuitive way possible. This is a cost-effective and scalable solution based on Amazon Web Services (AWS) Lambda.",
+    doi: "https://link.springer.com/chapter/10.1007/978-981-16-1685-3_4",
+  },
+  {
+    title: "Intellectual Property Rights Management Using Blockchain",
+    description:
+        "This paper describes the potential of blockchain technology to offer novel solutions in the Intellectual Property space. Traditionally, IPRs have been managed and regulated by centralized institutions like governments or administrative bodies of the region where IP holders want to secure and enforce rights. However, as markets get globalized and digitized there is a pressing need to look for more reliable and feasible solutions. In this paper, we describe various contemporary techniques for IPR management and the challenges associated with them. We have also proposed an unprecedented framework for a model based on consortium blockchain which can aid in resolving the issues related to IPR management.",
+    doi: "https://link.springer.com/chapter/10.1007/978-981-16-0882-7_47",
+  }
+] as const;
 export const skillsData = [
   "Python", "Java", "JavaScript", "TypeScript", "C++", "C", "SQL", "HTML", "CSS", "Bash", "Rust", "Kotlin",
   "React", "Next.js", "Kafka", "MongoDB", "DynamoDB", "ElasticSearch", "Postgres", "GraphQL", "Django", "Node.js",
