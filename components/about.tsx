@@ -19,14 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Vidhi Rambhia is a student at UIUC pursuing her MS in Computer Science.
-        With a distinguished academic background, she graduated as the <b>Gold Medalist</b> from VJTI, Mumbai.
-        At UIUC, Vidhi is advised by Prof. Vikram Adve, where she collaborates on the <b>Farm of the Future</b> project.
-        Her focus is on researching approximate computing for <b>Edge ML</b>. Vidhi's research interests lie at the intersection of technology and agriculture, aiming to create scalable solutions to address pressing agricultural challenges.
-        Her professional experience includes working at Goldman Sachs, where she led several initiatives to foster inclusivity.
-        At UIUC, she promotes diversity in STEM as the <b>Secretary of Grad-SWE</b>. She also mentors young women as a member of the WCS organization.
-        Vidhi has been awarded the prestigious SS Radhakrishnan Scholarship at UIUC for her academic excellence and leadership potential.
-        Currently, she is interning at Amazon’s <b>AWS Redshift team</b>.
+      I'm Vidhi Rambhia, a Software Development Engineer with a passion for cutting-edge technologies and problem-solving. Currently pursuing my Master's in Computer Science at the University of Illinois Urbana-Champaign, I specialize in areas like machine learning, edge computing, and large-scale system design. My experience includes internships at Amazon AWS, where I worked on distributed systems, and a full-time role at Goldman Sachs, focusing on microservices and AI-driven solutions.
+      From optimizing machine learning models for real-world applications to building interactive visualizations and blockchain-based systems, I love turning complex problems into elegant solutions. Explore my portfolio, check out my projects, or connect with me to collaborate on exciting challenges in tech!.
       </p>
     </motion.section>
   );

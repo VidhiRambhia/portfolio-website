@@ -75,9 +75,9 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/11ceh7ok0XfPnmH6RC_u-xXgeoy_i8Bxj/view?usp=sharing"
+          href="https://drive.google.com/file/d/1T61_OQWHUVUZ0s4S7ruUnV2_0Ey4jPEy/view?usp=sharing"
         >
-          View CV{" "}
+          View Resume{" "}
           <HiEye className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
